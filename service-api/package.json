@@ -1,0 +1,25 @@
+{
+  "name": "service-api",
+  "version": "1.0.0",
+  "description": "ParkPredict main API service for handling bookings and conflicts.",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "keywords": [
+    "parkpredict",
+    "parking",
+    "api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "csv-parser": "^3.2.0",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

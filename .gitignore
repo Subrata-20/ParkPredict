@@ -1,0 +1,24 @@
+--- Node.js (for service-api) ---
+
+service-api/node_modules/
+service-api/npm-debug.log*
+service-api/yarn-error.log
+
+--- Python (for service-ai) ---
+
+service-ai/venv/
+service-ai/pycache/
+service-ai/*.pyc
+service-ai/.pytest_cache/
+
+--- General / OS ---
+
+.DS_Store
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+*.log
+.vscode/
+.idea/
